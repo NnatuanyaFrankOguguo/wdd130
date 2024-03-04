@@ -29,22 +29,22 @@ main {
     max-width: 840px;
 }
 
-aside {
+aside { 
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: center; 
 }
 
-main img {
+aside img {
     width: 200px;
     height: auto;
 }
 
-main-p {
+p {
     padding:0;
 }
 
