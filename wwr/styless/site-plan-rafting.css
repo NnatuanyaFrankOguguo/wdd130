@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -49,10 +48,10 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display:flex;
+    display: flex;
 }
 
-nav a{
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
