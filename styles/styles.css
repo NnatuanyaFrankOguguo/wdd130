@@ -20,12 +20,14 @@ h1 {
     color: steelblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -39,6 +41,7 @@ main {
 aside { 
     width: 20rem;
     text-align: center; 
+    position: relative;
 }
 
 aside img {
@@ -57,16 +60,14 @@ text-align: center;
 
 }
 
-main img {
-    /*you will most likely have other declarations here*/
-    float: right;
-}
+
 
 aside h2{
     position: absolute;
-    top: 710px;
-    left: 140px;
+    top: 45px;
+    left: 130px;
 }
+
 
 /* Class Selectors */
 .box {
