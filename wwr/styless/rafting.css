@@ -12,18 +12,32 @@
 
 
 }
+.box {  
+    margin: 0px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+    background-color: rgba(255,255,255,.5);
+    color: #333;
+    width: 63rem;
+    height: auto;
+    text-align: center;
+}
 
-
+div {
+    position: relative;
+    
+}
 
 body {
     font-family: var(--paragraph-font);
     max-width: 930px;
+    padding-left: 4rem;
     
 
 }
 
 p {
-    color: var(--accent2-color)
+    color: var(--secondary-color)
 }
 
 h1, h2 {
@@ -35,20 +49,35 @@ nav a{
     text-decoration: none;
 }
 
-main h1 {
+h1 {
     position: absolute;
-    top: 200px;
-    left: 260px;
+    top: 15px;
+    left: 0px;
 }
 
-article p { 
-    max-width: 500px;
+
+
+article img{
+    float: right;
 }
 
-article img, p {
+
+article p {
+    color:#D1DBF0
+}
+
+article {
     position: absolute;
-    top: 260px;
-    left: 50px;
+    top: 110px;
+    left: 5px;    
+    border: 1px;
+    padding: 10px;
+    background-color: rgba(70, 105, 181, .6);
+    color : #f9f7f7;
+    width: 61rem;
+    height: auto;
+    text-align: center;
+    
 }
 
 .hero img {
@@ -57,4 +86,19 @@ article img, p {
     width: 100;
     height: auto;
     
+}
+
+.sociallinks{ 
+
+    padding: 0.5px 0px 0.1px 0;
+}
+
+footer p{
+    font-weight: bold;
+}
+
+.footerimage{
+    height: 40px;
+    width: auto;
+    display: inline block;
 }
