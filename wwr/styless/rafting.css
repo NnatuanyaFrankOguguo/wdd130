@@ -69,12 +69,12 @@ article p {
 article {
     position: absolute;
     top: 110px;
-    left: 5px;    
+    left: 110px;    
     border: 1px;
     padding: 10px;
     background-color: rgba(70, 105, 181, .6);
     color : #f9f7f7;
-    width: 61rem;
+    width: 49rem;
     height: auto;
     text-align: center;
     
