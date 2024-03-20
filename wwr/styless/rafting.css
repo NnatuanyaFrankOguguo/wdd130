@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 :root{ 
     --primary-color:#000000;
     --secondary-color:#14213d;
@@ -37,12 +38,12 @@ body {
 }
 
 p {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
 }
 
 nav a{
@@ -53,9 +54,14 @@ h1 {
     position: absolute;
     top: 15px;
     left: 0px;
+
 }
 
+.hero .bye {
+    width: 1030px;
+    height: auto;
 
+}
 
 article img{
     float: right;
@@ -63,7 +69,7 @@ article img{
 
 
 article p {
-    color:#D1DBF0
+    color:#D1DBF0;
 }
 
 article {
@@ -83,7 +89,7 @@ article {
 .hero img {
 
     display: block;
-    width: 100;
+    width: 150px;
     height: auto;
     
 }
@@ -100,5 +106,5 @@ footer p{
 .footerimage{
     height: 40px;
     width: auto;
-    display: inline block;
+    display: inline-block;
 }
