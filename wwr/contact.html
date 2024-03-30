@@ -30,9 +30,9 @@
     
     <main>
         <section class="section-1">
-            <div class="grid-item-1">
+            <h1 class="grid-item-1">
                 Do you have any questions, tips, or thoughts? Send us a message, and we will aim to be in touch as soon as possible
-            </div>
+            </h1>
 
             <div class="grid-item-2">
                 <div class="topics">⊠ Reach out to us:</div>
@@ -87,52 +87,52 @@
 
 
 
-        <section class="section-2">
-            <form action="">
-                <fieldset>
-                    <div class="input-box">
-                        <input class="inputs" type="text" id="fullname" name="fullname" >
-                        <label class="labels" for="fullname" class="label"> Fullname </label>
+    
+        <form action="">
+            <fieldset>
+                <div class="input-box">
+                    <input class="inputs" type="text" id="fullname" name="fullname" >
+                    <label class="labels" for="fullname" class="label"> Fullname </label>
 
+                </div>
+
+                <div class="input-box">
+                    <input class= "inputs" type="email" id="mail" name="mail" >
+                    <label class="labels" for="mail" class="label">Email</label>
+
+                </div>
+
+                <div class="text1">
+                    Purpose of the message.
+                    <div class="input-box1">
+                        <label for="general">General Inquiry</label>
+                        <input  class="inputs1"  type="radio" name="purpose" id="general" value="general">
                     </div>
-
-                    <div class="input-box">
-                        <input class= "inputs" type="email" id="mail" name="mail" >
-                        <label class="labels" for="mail" class="label">Email</label>
-
-                    </div>
-
-                    <div class="text1">
-                        Purpose of the message.
-                        <div class="input-box1">
-                            <label for="general">General Inquiry</label>
-                            <input  class="inputs1"  type="radio" name="purpose" id="general" value="general">
-                        </div>
-                        <div  class="input-box1">
-                            <label for="question">Reservation Question</label>
-                            <input  class="inputs1"  type="radio"  name="purpose" id="question" value="general">
-                        </div>
-                        <div  class="input-box1">
-                            <label for="website"> Website suggestion</label>
-                            <input  class="inputs1" type="radio" name="purpose" id="website" value="general">
-                        </div>
-                    </div>
-
-                    <div class="input-box">
-                        <label class="labels" for="message">The message</label> 
-                        <textarea class="inputs" id="message" name="message" ></textarea>
-                    </div>
-
                     <div  class="input-box1">
-                        <label for="subcribe"> Please subscribe me to the monthly newsletter</label>
-                        <input class="inputs1" type="checkbox" id="subscribe" name="subscribe">
-
+                        <label for="question">Reservation Question</label>
+                        <input  class="inputs1"  type="radio"  name="purpose" id="question" value="general">
                     </div>
+                    <div  class="input-box1">
+                        <label for="website"> Website suggestion</label>
+                        <input  class="inputs1" type="radio" name="purpose" id="website" value="general">
+                    </div>
+                </div>
 
-                </fieldset>
-                <button class="submitbtn">Submit/Send</button>
-            </form>
-        </section>
+                <div class="input-box">
+                    <label class="labels" for="message">The message</label> 
+                    <textarea class="inputs" id="message" name="message" ></textarea>
+                </div>
+
+                <div  class="input-box1">
+                    <label for="subcribe"> Please subscribe me to the monthly newsletter</label>
+                    <input class="inputs1" type="checkbox" id="subscribe" name="subscribe">
+
+                </div>
+
+            </fieldset>
+            <button class="submitbtn" type="send">Submit/Send</button>
+        </form>
+    
 
     </main>
 
